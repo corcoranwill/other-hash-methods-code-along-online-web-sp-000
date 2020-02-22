@@ -15,4 +15,5 @@ def get_the_values(groceries)
       result[index] << food
     end
   end
+  result
 end
