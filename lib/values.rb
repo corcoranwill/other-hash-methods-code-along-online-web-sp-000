@@ -10,11 +10,9 @@ require 'pry'
 
 def get_the_values(groceries)
   result = []
-  counter = 0
   groceries.each do |food_group|
     food_group.each do |food, index|
-      result[counter] << food
-      counter +=1
+      result[index] << food
     end
   end
   result
