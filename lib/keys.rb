@@ -9,5 +9,9 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  #code your solution here!
+  result = []
+
+  groceries.each do |food_group, index|
+    result[index] << food_group
+  end
 end
