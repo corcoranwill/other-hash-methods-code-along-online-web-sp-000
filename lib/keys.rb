@@ -14,4 +14,5 @@ def get_the_keys(groceries)
   groceries.each do |food_group, index|
     result[index] << food_group
   end
+  result
 end
